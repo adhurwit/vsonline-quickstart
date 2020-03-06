@@ -8,7 +8,7 @@
 var express = require('express');
 
 // Variables
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 var HOST = 'localhost';
 
 // App
